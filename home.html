@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islington College Demo</title>
+    <link rel="stylesheet" title="text/CSS" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
+    <script
+    src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+    data-auto-a11y="true"
+  ></script>
+</head>
+<body>
+    <section class="top">
+    <nav>
+        <a href="home.html"><img src="images/logo.png" alt="image"></a>
+        <div class="nav-bar" id="navLinks">
+            <!-- <i class="fas fa-times" id="close_btn" onclick="closeButton()"></i> -->
+            <i class="fas fa-times" id="closeBtn" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="home.html">About</a></li>
+                <li><a href="home.html">Service</a></li>
+                <li><a href="home.html">Blog</a></li>
+                <li><a href="home.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" id="barBtn" onclick="showMenu()"></i>
+        <!-- <i class="fas fa-bars" id="bar_btn" onclick=" showButton()"></i> -->
+    </nav>
+        <div class="body-1">
+            <h1>Nepal's Best IT college</h1>
+            <p>Islington college is one of the best IT college of nepal. It is also considered as the oldest IT college of nepal as It was established on 19-- AD. </p>
+            <a href="#" class="read">Read More</a>
+        </div>
+
+    </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- --------------Course---------------- -->
+    <section class="course">
+        <h1>Our Courses</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+
+        <div class="row">
+            <div class="course-name">
+                <h2>Information Technology (Bsc.IT)</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sed, optio ullam nesciunt eius alias voluptate, impedit atque molestiae odio repellendus culpa ea eveniet, similique nihil neque natus commodi dolore.</p>
+
+            </div>
+
+            <div class="course-name">
+                <h2>International Business (BBA)</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sed, optio ullam nesciunt eius alias voluptate, impedit atque molestiae odio repellendus culpa ea eveniet, similique nihil neque natus commodi dolore.</p>
+
+            </div>
+
+            <div class="course-name">
+                <h2>Master IT (Msc.IT)</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sed, optio ullam nesciunt eius alias voluptate, impedit atque molestiae odio repellendus culpa ea eveniet, similique nihil neque natus commodi dolore.</p>
+
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- --------------Campus---------------- -->
+    <section class="campus">
+        <h1>Campus Branch</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        
+        <div class="row1">
+        
+        <div class="campus-block">
+            <img src="images/Admin_block.jpg">
+            
+           
+        </div>
+
+        
+        </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -----------------Javascript for Menu ----------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
