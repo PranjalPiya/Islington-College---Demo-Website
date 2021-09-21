@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Islington College Demo</title>
+    <link rel="stylesheet" title="text/CSS" href="style.css" />
+    <link rel="stylesheet" href="style1.css" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+  </head>
+  <body>
+    <section class="contact-top">
+      <nav>
+        <a href="home.html"><img src="images/logo.png" alt="image" /></a>
+        <div class="nav-bar" id="navLinks">
+          <!-- <i class="fas fa-times" id="close_btn" onclick="closeButton()"></i> -->
+          <i class="fas fa-times" id="closeBtn" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" id="barBtn" onclick="showMenu()"></i>
+        <!-- <i class="fas fa-bars" id="bar_btn" onclick=" showButton()"></i> -->
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2772704299996!2d85.32386561490148!3d27.70872418279141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1908434cb3c5%3A0x1fdf1a6d41d2512d!2sIslington%20College!5e0!3m2!1sen!2snp!4v1628505569681!5m2!1sen!2snp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="column-contact">
+          <div>
+            <i class="fa fa-home" id="contact-icon"></i>
+            <span>
+              <h5>Kamal Marg, Kathmandu</h5>
+              <p>P.O Box 44600</p>
+            </span>
+          </div>
+
+          <div>
+            <i class="fa fa-phone" id="contact-icon"></i>
+            <span>
+              <h5>4512929, +977-9801022446</h5>
+              <p>Call us for any enquiry</p>
+            </span>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope" id="contact-icon"></i>
+            <span>
+              <h5>info@islington.edu.np</h5>
+              <p>Email us to get in touch with us</p>
+            </span>
+          </div>
+        </div>
+        <div class="column-contact">
+        <form action="form.php" method="POST">
+          <input type="text" name="name" placeholder="Enter your Full Name" required />
+          <input type="email" name="email" placeholder="Enter your Email Address" required />
+          <input type="text" name="address" placeholder="Enter your Address" required />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="8"
+            placeholder="Place your Message.."
+            required
+          ></textarea>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+  
+  <!-- --------------footer---------------- -->
+  <section class="footer">
+    <img src="images/logo.png" />
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, earum vel.
+      Quibusdam atque officiis totam, architecto tempora, <br />
+      iusto corporis,
+    </p>
+    <div class="icons">
+      <a href="https://www.facebook.com/IslingtonCollege">
+        <i class="fab fa-facebook-f" id="icons"></i
+      ></a>
+      <a href="https://www.instagram.com/islingtoncollege/"
+        ><i class="fab fa-instagram" id="icons"></i
+      ></a>
+      <a href="https://twitter.com/NyctophiliaPiya">
+        <i class="fab fa-twitter" id="icons"></i
+      ></a>
+      <a href="https://www.linkedin.com/school/islington-college-kathmandu/"
+        ><i class="fab fa-linkedin-in" id="icons"></i
+      ></a>
+    </div>
+    <p>
+      All Right Reserved <i class="far fa-copyright"></i> Developed by Pranjal
+      Piya
+    </p>
+  </section>
+
+    <!-- -----------------Javascript for Menu ----------------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
