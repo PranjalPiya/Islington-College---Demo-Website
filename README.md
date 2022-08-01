@@ -1,5 +1,5 @@
 # Islington-College---Demo-Website
-- A prototype website for the Islington College. Built using HTML, CSS and JavaScript.
+- A prototype website for the Islington College.
 
 
 ## Screenshots of the site
