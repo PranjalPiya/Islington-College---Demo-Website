@@ -2,7 +2,7 @@
 - A prototype website for the Islington College.
 
 
-## Screenshots of the site
+## Some glimpse of the site
 - ![image](https://user-images.githubusercontent.com/87473741/182113695-0a01b479-4726-472b-982d-a126f3a2562c.png)
 ___________________________________________________________________________________________________________________
 - ![image](https://user-images.githubusercontent.com/87473741/182114867-fa2c1bea-3159-430c-8319-c4d647acae86.png)
